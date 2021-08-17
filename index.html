@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 class="fosi"><pre> S P L I <br> T T E R </pre></h1>
+    </div>
+    <div class="box">
+        <div class="box1" align="left" >
+          <p class="white font">Bill</p>
+            <input type="number" class="font" id="bill" name="$" size="20" direction:rtl;><br>  
+            <p class="white tip font ">Select tip%</p>
+            <div class="butt white">
+                <button type="button" onclick="evaluat(5)" class="but">5%</button>
+                <button type="button" onclick="evaluat(10)" class="but">10%</button>
+                <button type="button" onclick="evaluat(15)" class="but">15%</button>
+                <button type="button" onclick="evaluat(25)" class="but ">25%</button>
+                <button type="button" onclick="evaluat(30)" class="but">30%</button>
+                <!-- <button type="button" class="but">30%</button> -->
+                <button type="button" onclick="evaluat(35)" class="but">35%</button>
+            </div>
+            <div id="people" class="white">
+                <p class="white font" id="nop">No of people </p>
+                <input type="number" class="font" id="noofpeople" name="$" size="20" ;><br>
+           </div>
+            
+    </div>
+    <div class="box2" align="left">
+       <h5 class="green">Tip  Amount</h5>
+       <p class="green side">/person</p>
+       <p class="right" id="tap">$0.00</p>
+       <h5 class="green" id="tp">Total</h5>
+       <p class="green side" id="tp1">/person</p>
+       <p class="right1" id="tp2">$0.00</p>
+       <button type="button" class="reset" onclick="reset()">Reset </button>
+    </div>
+</body>
+<script src="index.js">
+</script>
+</html>

@@ -1,0 +1,111 @@
+
+body{
+    text-align: center;
+}
+.font_size{
+    margin-top: 3em;
+    font-size: 2em;
+    font-family: Space Mono;
+    text-align: center;
+}
+.box{
+    background-color: white;
+    margin: auto;
+    width: 50em;
+    height: 22em;
+    margin-top: 2em;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.box1{
+ background-color:white;
+    width: 25em;
+}
+*{
+    background-color: rgba(197,228,231,255);
+
+}
+.white{
+    background-color: white;
+}
+ 
+.box2{
+    background-color: hsl(183, 100%, 15%);
+   width: 20em;
+   border-radius: 25px;  
+   margin: 0px;
+    padding: 2em;
+}
+.font{
+    font-family: 'Space Mono', monospace;
+   color: hsl(183, 100%, 15%);
+
+}
+.butt{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 8em;
+   flex-wrap: wrap;
+}
+.but{
+background-color: hsl(183, 100%, 15%);
+color: white;
+width: 8em;
+font-family: 'Space Mono', monospace;
+height: 3em;
+}
+.form1{
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    width: 8em;
+    height: 3em;
+}
+.green{
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+}
+.side{
+    color:hsl(185, 41%, 84%);
+    font-size: smaller;
+}
+.reset{
+    margin-top: 2em;
+    width: 100%;
+    padding: 2em;
+    border-radius: 25px;
+    background-color: rgba(38,194,173,255);
+    cursor: pointer;
+}
+.but:hover{
+   background-color: rgba(38,194,173,255);
+   cursor: pointer;
+}
+.error{
+    position: relative;
+    margin-top: -5.4em;
+    margin-left: 30em;
+    font-size: .7em;
+    color: red;
+}
+.right{
+    /* position: relative; */
+    text-align: right;
+    background-color: hsl(183, 100%, 15%);
+    color:rgba(38,194,173,255) ;
+    margin-top: -1.6em;
+    font-size: 3em;
+}
+.right1{
+    /* position: relative; */
+    text-align: right;
+    background-color: hsl(183, 100%, 15%);
+    color:rgba(38,194,173,255) ;
+    margin-top: -1.6em;
+    font-size: 3em;
+}
+#fanme1{
+    padding: 6px;
+}
